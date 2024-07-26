@@ -39,7 +39,7 @@
             <ul>`;
 
               pokemonData.types.forEach(type => {
-              detailsHtml += `<li><a href="/PMtype/index.html?type=${type.type.name}">${type.type.name}</a></li>`;
+              detailsHtml += `<li><a href="../PMtype/index.html?type=${type.type.name}">${type.type.name}</a></li>`;
               });
         detailsHtml += `
             </ul>
@@ -51,7 +51,7 @@
             <ul>`;
 
         pokemonData.abilities.forEach(ability => {
-          detailsHtml += `<li><a href="/PMability/index.html?ability=${ability.ability.name}">${ability.ability.name}</a></li>`;
+          detailsHtml += `<li><a href="../PMability/index.html?ability=${ability.ability.name}">${ability.ability.name}</a></li>`;
         });
 
         detailsHtml += `
